@@ -1,0 +1,22 @@
+{
+  "name": "dotherightthing.github.io",
+  "version": "1.0.0",
+  "description": "Demos for issues with 3rd party libraries",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dotherightthing/dotherightthing.github.io.git"
+  },
+  "author": "dan@dotherightthing.co.nz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dotherightthing/dotherightthing.github.io/issues"
+  },
+  "homepage": "https://github.com/dotherightthing/dotherightthing.github.io#readme",
+  "dependencies": {
+    "ie11-custom-properties": "git+https://github.com/nuxodin/ie11CustomProperties.git"
+  }
+}
