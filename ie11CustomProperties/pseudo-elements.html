@@ -1,15 +1,20 @@
 <!DOCTYPE html>
 <html>
-<head>
-<title>Pseudo Elements | ie11CustomProperties</title>
-<script src="node_modules/ie11-custom-properties/ie11CustomProperties.js"></script>
-<link rel="stylesheet" href="pseudo-elements.css">
-</head>
-<body>
+  <head>
+    <title>Pseudo Elements | ie11CustomProperties</title>
+    <script src="node_modules/ie11-custom-properties/ie11CustomProperties.js"></script>
+    <link rel="stylesheet" href="pseudo-elements.css">
+  </head>
+  <body>
 
-<div>Global style</div>
+  <div>Global style</div>
+  <div style="--g-color-border:green" ie-style="--g-color-border:green">Inline style</div>
 
-<div style="--g-color-border:green" ie-style="--g-color-border:green">Inline style</div>
+  <div class="wrapper">
+    <h2>Within wrapper</h2>
+    <div>Global style</div>
+    <div style="--g-color-border:green" ie-style="--g-color-border:green">Inline style</div>
+  </div>
 
-</body>
+  </body>
 </html>
