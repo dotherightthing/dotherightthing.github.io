@@ -15,5 +15,10 @@ div::before {
     bottom: 0;
     left: 0;
     border-left: .5rem solid transparent;
-    border-color: var(--g-color-border);
+}
+
+@media screen and (min-width:960px) {
+    div::before {
+        border-color: var(--g-color-border);
+    }
 }
